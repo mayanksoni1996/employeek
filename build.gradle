@@ -28,6 +28,7 @@ ext {
 }
 
 dependencies {
+    implementation 'io.minio:minio:8.5.16'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
